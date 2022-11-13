@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-10T23:32:38 IST" name="Default suite" finished-at="2022-11-10T23:34:44 IST" duration-ms="125049">
+    <groups>
+    </groups>
+    <test started-at="2022-11-10T23:32:38 IST" name="Default test" finished-at="2022-11-10T23:34:44 IST" duration-ms="125049">
+      <class name="com.sgtesting.testngscenairo1.Assignment7">
+        <test-method signature="lanchDriver()[pri:1, instance:com.sgtesting.testngscenairo1.Assignment7@47faa49c]" started-at="2022-11-10T23:32:39 IST" name="lanchDriver" finished-at="2022-11-10T23:32:40 IST" duration-ms="1667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanchDriver -->
+        <test-method signature="navigate()[pri:2, instance:com.sgtesting.testngscenairo1.Assignment7@47faa49c]" started-at="2022-11-10T23:32:40 IST" name="navigate" finished-at="2022-11-10T23:32:43 IST" duration-ms="2607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.sgtesting.testngscenairo1.Assignment7@47faa49c]" started-at="2022-11-10T23:32:43 IST" name="login" data-provider="login" finished-at="2022-11-10T23:32:48 IST" duration-ms="5255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="minimizeflywindow()[pri:4, instance:com.sgtesting.testngscenairo1.Assignment7@47faa49c]" started-at="2022-11-10T23:32:48 IST" name="minimizeflywindow" finished-at="2022-11-10T23:32:50 IST" duration-ms="2142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeflywindow -->
+        <test-method signature="createcustomer(java.lang.String)[pri:5, instance:com.sgtesting.testngscenairo1.Assignment7@47faa49c]" started-at="2022-11-10T23:32:50 IST" name="createcustomer" data-provider="customer" finished-at="2022-11-10T23:33:01 IST" duration-ms="10678" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kailash]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcustomer -->
+        <test-method signature="createproject(java.lang.String)[pri:6, instance:com.sgtesting.testngscenairo1.Assignment7@47faa49c]" started-at="2022-11-10T23:33:01 IST" name="createproject" data-provider="project" finished-at="2022-11-10T23:33:17 IST" duration-ms="16469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ramya]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createproject -->
+        <test-method signature="createtask(java.lang.String)[pri:7, instance:com.sgtesting.testngscenairo1.Assignment7@47faa49c]" started-at="2022-11-10T23:33:17 IST" name="createtask" data-provider="task" finished-at="2022-11-10T23:33:35 IST" duration-ms="17562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sowmya]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createtask -->
+        <test-method signature="deletetask()[pri:8, instance:com.sgtesting.testngscenairo1.Assignment7@47faa49c]" started-at="2022-11-10T23:33:35 IST" name="deletetask" finished-at="2022-11-10T23:33:50 IST" duration-ms="15444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletetask -->
+        <test-method signature="deleteproject()[pri:9, instance:com.sgtesting.testngscenairo1.Assignment7@47faa49c]" started-at="2022-11-10T23:33:50 IST" name="deleteproject" finished-at="2022-11-10T23:34:11 IST" duration-ms="20360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteproject -->
+        <test-method signature="deletecustomer()[pri:10, instance:com.sgtesting.testngscenairo1.Assignment7@47faa49c]" started-at="2022-11-10T23:34:11 IST" name="deletecustomer" finished-at="2022-11-10T23:34:27 IST" duration-ms="16435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletecustomer -->
+        <test-method signature="logout()[pri:11, instance:com.sgtesting.testngscenairo1.Assignment7@47faa49c]" started-at="2022-11-10T23:34:27 IST" name="logout" finished-at="2022-11-10T23:34:27 IST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="closeApplication()[pri:12, instance:com.sgtesting.testngscenairo1.Assignment7@47faa49c]" started-at="2022-11-10T23:34:27 IST" name="closeApplication" finished-at="2022-11-10T23:34:44 IST" duration-ms="16281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.sgtesting.testngscenairo1.Assignment7 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
