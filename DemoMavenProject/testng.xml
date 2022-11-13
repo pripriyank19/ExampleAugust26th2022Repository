@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test cases">
+	<test name="Assignment2">
+		<classes>
+			<class name="com.sgtesting.scenario.Assignment2"></class>
+		</classes>
+	</test>
+	<test name="Assignment3">
+		<classes>
+			<class name="com.sgtesting.scenario.Assignment3"></class>
+		</classes>
+	</test>
+	<test name="Assignment7">
+		<classes>
+			<class name="com.sgtesting.scenario.Assignment7"></class>
+		</classes>
+	</test>
+	<test name="LoginLogoutDemo">
+		<classes>
+			<class name="com.sgtesting.scenario.LoginLogoutDemo"></class>
+		</classes>
+	</test>
+</suite>
